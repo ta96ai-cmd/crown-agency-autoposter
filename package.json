@@ -1,0 +1,13 @@
+{
+  "name": "crown-agency-x-autoposter",
+  "version": "1.0.0",
+  "description": "Crown Agency automatic X posting — Harada Method",
+  "main": "scripts/dailyPost.js",
+  "scripts": {
+    "post": "node scripts/dailyPost.js",
+    "test": "node scripts/test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
